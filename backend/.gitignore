@@ -1,0 +1,9 @@
+venv/
+__pycache__/
+*.pyc
+.env
+resume_matcher.db
+app/data/word2vec.model
+app/data/training_corpus.txt
+app/data/external_corpus.txt
+app/data/hf_resume_jd_fit.csv

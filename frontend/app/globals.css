@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700&family=Quicksand:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #EFE6D8;
+  background-image:
+    radial-gradient(circle at 10% 15%, rgba(143, 184, 216, 0.55) 0%, transparent 40%),
+    radial-gradient(circle at 90% 5%, rgba(232, 165, 173, 0.55) 0%, transparent 42%),
+    radial-gradient(circle at 80% 90%, rgba(163, 197, 150, 0.5) 0%, transparent 42%),
+    radial-gradient(circle at 5% 85%, rgba(192, 174, 223, 0.5) 0%, transparent 42%),
+    radial-gradient(circle at 50% 50%, rgba(245, 227, 168, 0.3) 0%, transparent 60%);
+  font-family: 'Quicksand', system-ui, sans-serif;
+  color: #5B4E44;
+  min-height: 100vh;
+}
+
+h1, h2, h3, .font-heading {
+  font-family: 'Baloo 2', system-ui, sans-serif;
+}
+
+@layer components {
+  .clay-card {
+    @apply bg-[#FBF7F1] rounded-clay shadow-clay border border-white/60;
+  }
+
+  .clay-card-flat {
+    @apply bg-[#FBF7F1] rounded-clay-sm shadow-clay-sm border border-white/50;
+  }
+
+  /* Colored card variants so sections read as distinct pastel blocks
+     instead of one long stretch of cream/white. */
+  .clay-card-blue {
+    @apply bg-clay-blue/45 rounded-clay-sm shadow-clay-sm border border-white/50;
+  }
+  .clay-card-pink {
+    @apply bg-clay-pink/45 rounded-clay-sm shadow-clay-sm border border-white/50;
+  }
+  .clay-card-green {
+    @apply bg-clay-green/45 rounded-clay-sm shadow-clay-sm border border-white/50;
+  }
+  .clay-card-peach {
+    @apply bg-clay-peach/45 rounded-clay-sm shadow-clay-sm border border-white/50;
+  }
+  .clay-card-lavender {
+    @apply bg-clay-lavender/45 rounded-clay-sm shadow-clay-sm border border-white/50;
+  }
+  .clay-card-yellow {
+    @apply bg-clay-yellow/50 rounded-clay-sm shadow-clay-sm border border-white/50;
+  }
+
+  .clay-button {
+    @apply rounded-clay-sm shadow-clay-sm font-semibold font-heading
+           transition-all duration-150 active:shadow-clay-inset
+           active:translate-y-[1px] hover:shadow-clay-hover;
+  }
+
+  .clay-input {
+    @apply rounded-clay-sm shadow-clay-inset bg-[#FBF7F1] border border-white/50
+           focus:outline-none focus:ring-2 focus:ring-clay-blueDark/50
+           placeholder:text-clay-textSoft;
+  }
+
+  .clay-chip {
+    @apply rounded-full px-3 py-1 text-sm font-medium shadow-clay-sm border border-white/50;
+  }
+
+  .clay-tab {
+    @apply rounded-clay-sm px-4 py-2 font-heading font-semibold text-sm
+           transition-all duration-150 cursor-pointer;
+  }
+
+  .clay-tab-active {
+    @apply shadow-clay-inset bg-clay-blue/40;
+  }
+
+  .clay-tab-inactive {
+    @apply shadow-clay-sm bg-[#FBF7F1] hover:shadow-clay-hover;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #D9CFEB;
+  border-radius: 999px;
+}

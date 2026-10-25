@@ -1,0 +1,63 @@
+{
+  "programming_languages": [
+    "python", "java", "javascript", "typescript", "c++", "c#", "c", "go", "golang",
+    "rust", "ruby", "php", "swift", "kotlin", "scala", "r", "matlab", "perl",
+    "dart", "objective-c", "shell scripting", "bash", "powershell", "sql", "html",
+    "css", "sass", "less"
+  ],
+  "frontend": [
+    "react", "reactjs", "react.js", "angular", "angularjs", "vue", "vuejs", "vue.js",
+    "next.js", "nextjs", "nuxt.js", "svelte", "sveltekit", "jquery", "bootstrap",
+    "tailwind css", "tailwindcss", "material ui", "mui", "redux", "webpack", "vite",
+    "graphql", "web components", "responsive design", "figma", "sketch"
+  ],
+  "backend": [
+    "node.js", "nodejs", "express.js", "express", "django", "flask", "fastapi",
+    "spring", "spring boot", "ruby on rails", "rails", "laravel", "asp.net",
+    ".net core", ".net", "nestjs", "gin", "fiber", "phoenix", "grpc", "rest api",
+    "restful api", "graphql api", "microservices", "websockets", "soap"
+  ],
+  "databases": [
+    "mysql", "postgresql", "postgres", "mongodb", "sqlite", "oracle", "sql server",
+    "redis", "cassandra", "dynamodb", "elasticsearch", "neo4j", "mariadb",
+    "firebase", "firestore", "supabase", "cosmos db", "couchdb", "snowflake",
+    "bigquery", "redshift"
+  ],
+  "cloud_devops": [
+    "aws", "amazon web services", "azure", "gcp", "google cloud platform", "docker",
+    "kubernetes", "k8s", "terraform", "ansible", "jenkins", "ci/cd", "github actions",
+    "gitlab ci", "circleci", "cloudformation", "helm", "prometheus", "grafana",
+    "nginx", "apache", "linux", "unix", "serverless", "lambda", "ec2", "s3",
+    "cloudfront", "vpc", "load balancing"
+  ],
+  "data_ml": [
+    "machine learning", "deep learning", "nlp", "natural language processing",
+    "computer vision", "tensorflow", "pytorch", "keras", "scikit-learn", "sklearn",
+    "pandas", "numpy", "matplotlib", "seaborn", "opencv", "hugging face",
+    "transformers", "llm", "large language models", "generative ai", "data analysis",
+    "data engineering", "etl", "data pipeline", "spark", "apache spark", "hadoop",
+    "airflow", "mlops", "feature engineering", "statistics", "a/b testing",
+    "power bi", "tableau", "data visualization", "sentence-transformers", "embeddings"
+  ],
+  "mobile": [
+    "android", "ios", "react native", "flutter", "swift ui", "xamarin", "ionic",
+    "kotlin multiplatform"
+  ],
+  "testing": [
+    "unit testing", "integration testing", "selenium", "cypress", "jest", "mocha",
+    "pytest", "junit", "test automation", "tdd", "test driven development", "qa",
+    "quality assurance", "playwright", "postman"
+  ],
+  "tools_practices": [
+    "git", "github", "gitlab", "bitbucket", "jira", "confluence", "agile", "scrum",
+    "kanban", "devops", "system design", "object oriented programming", "oop",
+    "design patterns", "data structures", "algorithms", "api design",
+    "version control", "code review"
+  ],
+  "soft_skills": [
+    "communication", "leadership", "teamwork", "problem solving", "critical thinking",
+    "time management", "project management", "collaboration", "adaptability",
+    "mentoring", "stakeholder management", "presentation skills", "negotiation",
+    "conflict resolution", "creativity", "attention to detail"
+  ]
+}
